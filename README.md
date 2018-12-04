@@ -1,4 +1,4 @@
-# settings
+# vim等软件配置
 vim sublime rime etc.
 
 # 安装.vimrc到当前用户文件夹~
