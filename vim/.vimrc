@@ -23,16 +23,18 @@ call plug#begin('~/.vim/autoload')
 Plug 'tomasr/molokai'
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
-"Plug 'ervandew/supertab'
 Plug 'majutsushi/tagbar'
 Plug 'rking/ag.vim'
 Plug 'plasticboy/vim-markdown'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 Plug 'junegunn/vim-easy-align'
+Plug 'junegunn/fzf.vim'
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'kien/ctrlp.vim'
 Plug 'iamcco/mathjax-support-for-mkdp'
 Plug 'iamcco/markdown-preview.vim'
+Plug 'bling/vim-airline'
+"Plug 'ervandew/supertab'
 call plug#end()
 
 set nocompatible				"去除VI一致性,必须
