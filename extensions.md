@@ -8,7 +8,7 @@
 
 - [Diigo](https://chrome.google.com/webstore/detail/pnhplgjpclknigjpccbcnmicgcieojbh)
 
-- [Fair AdBlocker](https://chrome.google.com/webstore/detail/lgblnfidahcdcjddiepkckcfdhpknnjh)
+- [AdBlocker Ultimate](https://chrome.google.com/webstore/detail/adblocker-ultimate/ohahllgiabjaoigichmmfljhkcfikeof?hl=zh-CN)
 
 - [Google Translate Plus](https://chrome.google.com/webstore/detail/jomhcfmjbfkigcepcfkcpknnppmdopmc)
 
