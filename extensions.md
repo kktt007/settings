@@ -64,3 +64,6 @@
 - [1-Click Webpage Screenshot](https://chrome.google.com/webstore/detail/1-click-webpage-screensho/akgpcdalpfphjmfifkmfbpdmgdmeeaeo)
 
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
+
+
+# Firefox extensions
