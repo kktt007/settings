@@ -1,4 +1,4 @@
-# Chrome extensions 个个精品 
+# Chrome extensions 个个精品 ------ [Firefox extensions](#firefox-extensions)
 
 - [Anything to QRcode](https://chrome.google.com/webstore/detail/anything-to-qrcode/calkaljlpglgogjfcidhlmmlgjnpmnmf)
 
@@ -65,5 +65,42 @@
 
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
 
-
+==================================================================================================================
+# [Chrome extensions 个个精品](#chrome-extensions-个个精品--------firefox-extensions)
 # Firefox extensions
+
+- [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) ====== [类似lastpass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/?src=search)
+
+- [better-onetab](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+
+- [Default Bookmark Folder](https://addons.mozilla.org/en-US/firefox/addon/default-bookmark-folder/)
+
+- [Diigo Web Collector](https://addons.mozilla.org/en-US/firefox/addon/diigo-web-collector/)
+
+- [Imagus](https://addons.mozilla.org/en-US/firefox/addon/imagus/)
+
+- [Infinity New Tab (Pro)](https://addons.mozilla.org/en-US/firefox/addon/infinity-new-tab-pro-firefox/)
+
+- [Mate Translate](https://addons.mozilla.org/en-US/firefox/addon/instant-translate/)
+
+- [Open bookmarks in a new tab](https://addons.mozilla.org/en-US/firefox/addon/open-bookmarks-in-a-new-tab/)
+
+- [Reopen Closed Tabs](https://addons.mozilla.org/en-US/firefox/addon/reopen-closed-tab/)
+
+- [Session Boss](https://addons.mozilla.org/en-US/firefox/addon/session-boss/)
+
+- [Swift Selection Search 强烈推荐](https://addons.mozilla.org/en-US/firefox/addon/swift-selection-search/)
+
+- [Tampermonkey](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+
+- [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/)
+
+- [Vimium-FF--j k d u感受下](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
+
+- [AdBlocker Ultimate](https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/)
+
+- [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
+
+- [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
+
+- [Url to QrCode](https://addons.mozilla.org/en-US/firefox/addon/url-to-qrcode/)
