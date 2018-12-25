@@ -65,9 +65,9 @@
 
 - [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
 
-==================================================================================================================
-# [Chrome extensions 个个精品](#chrome-extensions-个个精品--------firefox-extensions)
+=====================================================================
 # Firefox extensions
+# [Chrome extensions 个个精品](#chrome-extensions-个个精品--------firefox-extensions)
 
 - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) ====== [类似lastpass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/?src=search)
 
