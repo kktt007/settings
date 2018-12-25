@@ -1,4 +1,4 @@
-# Chrome extensions 个个精品 ------ [Firefox extensions](#firefox-extensions)
+# Chrome extensions 精品 ------ [Firefox extensions](#firefox-extensions)
 
 - [Anything to QRcode](https://chrome.google.com/webstore/detail/anything-to-qrcode/calkaljlpglgogjfcidhlmmlgjnpmnmf)
 
@@ -67,7 +67,7 @@
 
 =====================================================================
 # Firefox extensions
-# [Chrome extensions 个个精品](#chrome-extensions-个个精品--------firefox-extensions)
+# [Chrome extensions 精品](#chrome-extensions-精品--------firefox-extensions)
 
 - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) ====== [类似lastpass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/?src=search)
 
