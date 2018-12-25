@@ -70,7 +70,7 @@
 
 - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) ====== [类似lastpass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/?src=search)
 
-- [better-onetab](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+- [better-onetab](https://addons.mozilla.org/zh-CN/firefox/addon/better-onetab/)
 
 - [Default Bookmark Folder](https://addons.mozilla.org/en-US/firefox/addon/default-bookmark-folder/)
 
