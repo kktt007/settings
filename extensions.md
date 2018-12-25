@@ -18,9 +18,12 @@
 
 - [Instapaper](https://chrome.google.com/webstore/detail/ldjkgaaoikpmhmkelcgkgacicjfbofhh)
 
-- [LastPass](https://chrome.google.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd)
-
-- [Bitwarden 类似lastpass](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+- 自动填充密码方案
+  + 在线密码方案
+    - [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
+    - [lastpass](https://chrome.google.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd)
+  + 本地密码方案
+    - [KeePassXC-Browser](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk/related) 需要安装[KeePassXC](https://keepassxc.org/download/)运行在本地
 
 - [Mate Translate](https://chrome.google.com/webstore/detail/ihmgiclibbndffejedjimfjmfoabpcke)
 
@@ -68,7 +71,12 @@
 =====================================================================
 # Firefox extensions扩展 ------> [Chrome extensions扩展](#chrome-extensions扩展--------firefox-extensions扩展)
 
-- [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/) ====== [类似lastpass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/?src=search)
+- 自动填充密码方案
+  + 在线密码方案
+    - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
+    - [lastpass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/)
+  + 本地密码方案
+    - [KeePassXC-Browser](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) 需要安装[KeePassXC](https://keepassxc.org/download/)运行在本地
 
 - [better-onetab](https://addons.mozilla.org/zh-CN/firefox/addon/better-onetab/)
 
