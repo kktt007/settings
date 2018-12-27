@@ -23,7 +23,7 @@
     - [Bitwarden](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb)
     - [lastpass](https://chrome.google.com/webstore/detail/hdokiejnpimakedhajhdlcegeplioahd)
   + 本地密码方案
-    - [KeePassXC-Browser](https://chrome.google.com/webstore/detail/keepassxc-browser/oboonakemofpalcgghocfoadofidjkkk/related) 需要安装[KeePassXC](https://keepassxc.org/download/)运行在本地
+    - [Enpass Password Manager](https://chrome.google.com/webstore/detail/enpass-password-manager/kmcfomidfpdkfieipokbalgegidffkal) 需要安装[Enpass](https://www.enpass.io/downloads/)运行在本地
 
 - [Mate Translate](https://chrome.google.com/webstore/detail/ihmgiclibbndffejedjimfjmfoabpcke)
 
@@ -76,7 +76,7 @@
     - [Bitwarden](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/)
     - [lastpass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/)
   + 本地密码方案
-    - [KeePassXC-Browser](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/) 需要安装[KeePassXC](https://keepassxc.org/download/)运行在本地
+    - [Enpass Password Manager](https://www.enpass.io/enpass-browser-extension/) 需要安装[Enpass](https://www.enpass.io/downloads/)运行在本地
 
 - [better-onetab](https://addons.mozilla.org/zh-CN/firefox/addon/better-onetab/)
 
