@@ -66,7 +66,9 @@
 
 - [1-Click Webpage Screenshot](https://chrome.google.com/webstore/detail/1-click-webpage-screensho/akgpcdalpfphjmfifkmfbpdmgdmeeaeo)
 
-- [Wikiwand](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
+- [Wikiwand--方便看wiki](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
+
+- [Octotree--方便看github](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 =====================================================================
 # Firefox extensions扩展 ------> [Chrome extensions扩展](#chrome-extensions扩展--------firefox-extensions扩展)
@@ -111,3 +113,5 @@
 - [Search by Image](https://addons.mozilla.org/en-US/firefox/addon/search_by_image/)
 
 - [Url to QrCode](https://addons.mozilla.org/en-US/firefox/addon/url-to-qrcode/)
+
+- [Octotree--方便看github](https://addons.mozilla.org/en-US/firefox/addon/octotree/)
