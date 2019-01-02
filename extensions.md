@@ -70,6 +70,8 @@
 
 - [Octotree--方便看github](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
+- [Google Keep](https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki)
+
 =====================================================================
 # Firefox extensions扩展 ------> [Chrome extensions扩展](#chrome-extensions扩展--------firefox-extensions扩展)
 
