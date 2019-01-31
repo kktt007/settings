@@ -6069,6 +6069,7 @@
 (^|\.)bandwagonhost\.com$
 (^|\.)bbc\.co$
 (^|\.)bbc\.com$
+(^|\.)bing\.com$
 (^|\.)bkrtx\.com$
 (^|\.)blogcdn\.com$
 (^|\.)blogger\.com$
@@ -6109,6 +6110,7 @@
 (^|\.)gfx\.ms$
 (^|\.)gist\.github\.com$
 (^|\.)gongm\.in$
+(^|\.)google\.com$
 (^|\.)googleapis\.cn$
 (^|\.)gstatic\.cn$
 (^|\.)gstatic\.com$
