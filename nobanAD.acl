@@ -6133,6 +6133,7 @@
 (^|\.)medium\.com$
 (^|\.)mega\.nz$
 (^|\.)megaupload\.com$
+(^|\.)merriam-webster\.com$
 (^|\.)messenger\.com$
 (^|\.)netdna-cdn\.com$
 (^|\.)nintendo\.net$
@@ -6175,6 +6176,7 @@
 (^|\.)txmblr\.com$
 (^|\.)vimeo\.com$
 (^|\.)vine\.co$
+(^|\.)vocabulary\.com$
 (^|\.)vox-cdn\.com$
 (^|\.)wikileaks\.org$
 (^|\.)wuu\.wikipedia\.org$
