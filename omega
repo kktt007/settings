@@ -1,3 +1,5 @@
+[AutoProxy]
+
 ||v.qq.com
 ||baidu.com
 .qq.com
@@ -12,5 +14,3 @@
 ||ip111.cn
 ||ip138.com
 ||ip.sb
-@@||google.com 
-@@.google.com
