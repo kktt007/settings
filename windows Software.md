@@ -60,7 +60,7 @@ windows software
 
 ### 3.1编辑器
 
-- [**NeoVim**](https://github.com/neovim/neovim/releases)	[**Spacevim--配置vim&Neovim**](https://spacevim.org/cn/documentation/)
+- [**NeoVim**](https://github.com/neovim/neovim/releases) --- [**vim&Neovim配置方案--Spacevim**](https://spacevim.org/cn/documentation/)
 
 
 - [**Sublime Text**](https://www.sublimetext.com/)
