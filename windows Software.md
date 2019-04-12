@@ -60,7 +60,7 @@ windows software
 
 ### 3.1编辑器
 
-- [**Vim**](https://www.vim.org/download.php)
+- [**NeoVim**](https://github.com/neovim/neovim/releases)[**Spacevim--vim配置**]（https://spacevim.org/cn/documentation/）
 
 
 
@@ -77,6 +77,15 @@ windows software
 	
 
 - [**Notepad3**](https://www.rizonesoft.com/downloads/notepad3/)
+
+
+
+- [**Remarkable--markdown编辑**](https://remarkableapp.github.io/)
+
+
+
+- [**typora--markdown编辑**](https://typora.io/)
+
 
 
 ### 3.2输入法
