@@ -42,47 +42,49 @@ _**Last Updated On**: 28th February 2019_
 
 [Antivirus Tools](#Antivirus-Tools)
 
-[Audio Players](#Audio-Players)
-
 [Artificial Intelligence](#Artificial-Intelligence)
+
+[Audio Players](#Audio-Players)
 
 [Backup Utilities](#Backup-Utilities)
 
 [Boot Loaders](#Boot-Loaders)
 
-[Clipboard Managers](#Clipboard-Managers)
-
 [Calendar Apps](#Calendar-Apps)
 
 [Chat Clients](#Chat-Clients)
 
-[Commandline Players](#Commandline-Players)
-
-[Commandline Editors](#Commandline-Editors)
-
-[Control Panels](#Control-Panels)
+[Clipboard Managers](#Clipboard-Managers)
 
 [Cloud Storage Tools](#Cloud-Storage-Tools)
 
+[Commandline Editors](#Commandline-Editors)
+
+[Commandline Players](#Commandline-Players)
+
 [Communication](#Communication)
+
+[Control Panels](#Control-Panels)
 
 [Data Backup and Recovery](#Data-Backup-and-Recovery)
 
 [Desktop Customization](#Desktop-Customization)
 
-[Download Managers](#Download-Managers)
-
 [Desktop Environments](#Desktop-Environments)
 
 [Diff Tools](#Diff-Tools)
 
+[Download Managers](#Download-Managers)
+
 [Editors](#Editors)
+
+[Email Clients](#Email-Clients)
 
 [Email Utilities](#Email-Utilities)
 
 [Emulators](#Emulators)
 
-[Email Clients](#Email-Clients)
+[File Manager](#File-Manager)
 
 [Finance Software](#Finance-Software)
 
@@ -90,33 +92,33 @@ _**Last Updated On**: 28th February 2019_
 
 [FTP Clients](#FTP-Clients)
 
-[File Manager](#File-Manager)
+[Games](#Games)
 
 [Git Clients](#Git-Clients)
 
-[Games](#Games)
+[Google Drive Clients](#Google-Drive-Clients)
 
 [Graphics](#Graphics)
 
-[Google Drive Clients](#Google-Drive-Clients)
+[Hacking & Penetration Tools](#Hacking-&-Penetration-Tools)
 
 [Hosting Billing Softwares](#Hosting-Billing-Softwares)
-
-[IRC Clients](#IRC-Clients)
-
-[Init Systems](#Init-Systems)
 
 [IDE Editors](#IDE-Editors)
 
 [Image Editors](#Image-Editors)
 
+[Init Systems](#Init-Systems)
+
+[IRC Clients](#IRC-Clients)
+
 [Linux Shells](#Linux-Shells)
 
 [Log Management](#Log-Management)
 
-[Mark Down Editors](#Mark-Down-Editors)
-
 [Mail Transfer Agents](#Mail-Transfer-Agents)
+
+[Mark Down Editors](#Mark-Down-Editors)
 
 [Movie Subtitles](#Movie-Subtitles)
 
@@ -132,20 +134,41 @@ _**Last Updated On**: 28th February 2019_
 
 [Screenshot Tools](#Screenshot-Tools)
 
+[Security](#Security)
+
 [Sharing Files](#Sharing-Files)
 
-[Security](#Security)
+[Status Bars](#Status-Bars)
 
 [Terminal](#Terminal)
 
+[Text Editors](#Text-Editors)
+
+[Themes](#Themes)
+
+[To-do List](#To-do-List)
+
 [Torrent Download Client](#Torrent-Download-Client)
 
+[Twitter Clients](#Twitter-Clients)
 
-[**Hacking & Penetration Tools**](#linuxhackingtools "Linux Hacking and Penetration Tools")
+[USB Image Writers](#USB-Image-Writers)
 
-[**USB Image Writers**](#usbwriters "Linux USB Image Writers")
+[Video Editors](#Video-Editors)
 
-[**Status Bars**](#topbars "Linux Status Bars")
+[Video Players](#Video-Players)
+
+[Virtualization](#Virtualization)
+
+[Vitual Machine Control Panels](#Vitual-Machine-Control-Panels)
+
+[Web Browsers (CLI)](#Web-Browsers-(CLI))
+
+[Web Browsers](#Web-Browsers)
+
+[Window Managers](#Window-Managers)
+
+---
 
 ### Antivirus Tools
 
