@@ -162,7 +162,7 @@ _**Last Updated On**: 28th February 2019_
 
 [Vitual Machine Control Panels](#Vitual-Machine-Control-Panels)
 
-[Web Browsers (CLI)](#Web-Browsers-(CLI))
+[Web Browsers (CLI)](#Web-Browsers-CLI)
 
 [Web Browsers](#Web-Browsers)
 
