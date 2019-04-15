@@ -39,129 +39,107 @@ _**Important**: This page is updated systematically based on **recommendations**
 
 _**Last Updated On**: 28th February 2019_
 
-Table of Contents
 
-[Antivirus Tools](#linux-virus-tools "Linux Antivirus Tools")
+[Antivirus Tools](#Antivirus-Tools)
 
-[Audio Players](#audioplayers "Linux Audio Players")
+[Audio Players](#Audio-Players)
 
-[Artificial Intelligence](#AItools "Linux Artificial Intelligence Tools")
+[Artificial Intelligence](#Artificial-Intelligence)
 
-[Backup Utilities](#linuxbackup "Linux Backup Utilities")
+[Backup Utilities](#Backup-Utilities)
 
-[Boot Loaders](#linuxbootloaders "Linux Boot Loaders")
+[Boot Loaders](#Boot-Loaders)
 
-[Clipboard Managers](#clipboard "Linux Clipboard Managers")
+[Clipboard Managers](#Clipboard-Managers)
 
-[Calendar Apps](#linuxcalendar "Linux Calendar Apps")
+[Calendar Apps](#Calendar-Apps)
 
-[Chat Clients](#linuxchat "Linux Chat Clients")
+[Chat Clients](#Chat-Clients)
 
-[Commandline Players](#linucliplay "Linux Commandline Players")
+[Commandline Players](#Commandline-Players)
 
-[Commandline Editors](#linuxclieditors "Linux Commandline Editors")
+[Commandline Editors](#Commandline-Editors)
 
-[Control Panels](#controlpanel "Linux Control Panels")
+[Control Panels](#Control-Panels)
 
-[Cloud Storage Tools](#linuxcloud "Linux Cloud Storage Tools")
+[Cloud Storage Tools](#Cloud-Storage-Tools)
 
-[Communication](#imclients "Linux Communication Tools")
+[Communication](#Communication)
 
-[Data Backup and Recovery](#backuprecovery "Linux Data Backup & Recovery Tools")
+[Data Backup and Recovery](#Data-Backup-and-Recovery)
 
-[Desktop Customization](#decustomization "Linux Desktop Customization")
+[Desktop Customization](#Desktop-Customization)
 
-[Download Managers](#downloadmanagers "Linux Download Managers")
+[Download Managers](#Download-Managers)
 
-[Desktop Environments](#desktop-environments "Linux Desktop Environments")
+[Desktop Environments](#Desktop-Environments)
 
-[Diff Tools](#difftools "Linux Diff Tools")
+[Diff Tools](#Diff-Tools)
 
-[Editors](#texteditors "Linux Editors")
+[Editors](#Editors)
 
-[Email Utilities](#emailtools "Linux Email Tools")
+[Email Utilities](#Email-Utilities)
 
-[Emulators](#linuxemulators "Linux Emulators")
+[Emulators](#Emulators)
 
-[Email Clients](#emailclients "Linux Email Clients")
+[Email Clients](#Email-Clients)
 
-[Finance Software](#financetools "Linux Finance Software")
+[Finance Software](#Finance-Software)
 
-[Firewalls](#firewalls "Linux Firewalls")
+[Firewalls](#Firewalls)
 
-[FTP Clients](#ftpclients "Linux FTP Clients")
+[FTP Clients](#FTP-Clients)
 
-[File Manager](#filemanager "Linux File Managers")
+[File Manager](#File-Manager)
 
-[Git Clients](#gitclients "Linux Git Clients")
+[Git Clients](#Git-Clients)
 
-[Games](#linuxgames "Linux Games")
+[Games](#Games)
 
-[Graphics](#graphictools "Linux Graphic Tools")
+[Graphics](#Graphics)
 
-[Google Drive Clients](#gdriveclients "Linux GDrive Clients")
+[Google Drive Clients](#Google-Drive-Clients)
 
-[Hosting Billing Softwares](#hostingbill "Linux Hosting Billing Software")
+[Hosting Billing Softwares](#Hosting-Billing-Softwares)
 
-[IRC Clients](#irclient "Linux IRC Clients")
+[IRC Clients](#IRC-Clients)
 
-[Init Systems](#initsystem "Linux Init Systems")
+[Init Systems](#Init-Systems)
 
-[IDE Editors](#ideeditors "Linux IDE Editors")
+[IDE Editors](#IDE-Editors)
 
-[Image Editors](#imageeditors "Linux Image or Photo Editors")
+[Image Editors](#Image-Editors)
 
-[Linux Shells](#linuxshells "Linux Shells")
+[Linux Shells](#Linux-Shells)
 
-[Log Management](#logs "Linux Log Management Tools")
+[Log Management](#Log-Management)
 
-[Mark Down Editors](#mardowneditors "Linux Markdown Editors")
+[Mark Down Editors](#Mark-Down-Editors)
 
-[Mail Transfer Agents](#mta "Linux Mail Transfer Agents")
+[Mail Transfer Agents](#Mail-Transfer-Agents)
 
-[Movie Subtitles](#subtitles "Linux Movie Subtitles")
+[Movie Subtitles](#Movie-Subtitles)
 
-[Music Making Softwares](#musictools "Linux Music Making Tools")
+[Music Making Softwares](#Music-Making-Softwares)
 
-[Note Taking Apps](#noteapps "Linux Note-Taking Apps")
+[Note Taking Apps](#Note-Taking-Apps)
 
-[Office Suits](#officesuite "Linux Office Suits")
+[Office Suits](#Office-Suits)
 
-[PDF Viewers](#pdfviewer "Linux PDF Viewers")
+[PDF Viewers](#PDF-Viewers)
 
-[Screen Recorders](#screenrecorders "Linux Screen Recorders")
+[Screen Recorders](#Screen-Recorders)
 
-[Screenshot Tools](#screenshottools "Linux Screenshot Tools")
+[Screenshot Tools](#Screenshot-Tools)
 
-[Sharing Files](#sharingfiles "Linux File Sharing Tools")
+[Sharing Files](#Sharing-Files)
 
-[Security](#securitytools "Linux Security Tools")
+[Security](#Security)
 
-[Terminal](#linuxterminal "Linux Terminals")
+[Terminal](#Terminal)
 
-[Torrent Download Client](#torrentclients "Linux Torrent Clients")
+[Torrent Download Client](#Torrent-Download-Client)
 
-[Text Editors](#linuxtexteditors "Linux Text Editors")
-
-[To-do List](#todolist "Linux To-Do List")
-
-[Themes](#linuxthemes "Linux Text Editors")
-
-[Twitter Clients](#twitterclients "Linux Twitter Clients")
-
-[Video Players](#videoplayers "Linux Video Players")
-
-[Vitual Machine Control Panels](#vmcontrol "Linux VM Control Panels")
-
-[Video Editors](#videoeditors "Linux Video Editors")
-
-[Virtualization](#virtualization "Linux Virtualization Software")
-
-[Web Browsers](#browsers "Linux Web Browsers")
-
-[Web Browsers (CLI)](#clibrowsers "Command Line Browsers")
-
-[Window Managers](#windowmanagers "Linux VM Control Panels")
 
 [**Hacking & Penetration Tools**](#linuxhackingtools "Linux Hacking and Penetration Tools")
 
