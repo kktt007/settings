@@ -1,0 +1,16 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.12.0
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Tue Nov 13 11:04:40 2018"
+  rime_version: 1.3.2
+patch:
+  "menu/page_size": 5  #候选数
+  "switcher/caption": "〔切换输入法〕"
+  schema_list:
+    - {schema: flypy}
+    - {schema: luna_pinyin}
+    - {schema: Blue_sapphire}
+#    - {schema: luna_pinyin_simp}
+#    - {schema: flypyplus}
+#    - {schema: wubi06}

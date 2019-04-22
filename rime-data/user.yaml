@@ -1,0 +1,9 @@
+var:
+  last_build_time: 1555892784
+  previously_selected_schema: Blue_sapphire
+  schema_access_time:
+    Blue_sapphire: 1555892833
+    flypy: 1555892810
+    flypyplus: 1555892020
+    luna_pinyin: 1555892828
+    luna_pinyin_simp: 1555892191
