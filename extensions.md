@@ -33,9 +33,10 @@
 
 - [Search the current site](https://chrome.google.com/webstore/detail/search-the-current-site/jliolpcnkmolaaecncdfeofombdekjcp)
 
-- [Selection Search](https://chrome.google.com/webstore/detail/selection-search/gipnlpdeieaidmmeaichnddnmjmcakoe) 自定义配置举例
+- [神器Selection Search](https://chrome.google.com/webstore/detail/selection-search/gipnlpdeieaidmmeaichnddnmjmcakoe) 自定义配置举例
  ```
  https://www.vocabulary.com/dictionary/%s
+ 复制的话直接新建搜索引擎:  COPY
  ```
 
 - [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko)
