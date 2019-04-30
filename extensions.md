@@ -8,7 +8,9 @@
 
 - [Diigo](https://chrome.google.com/webstore/detail/pnhplgjpclknigjpccbcnmicgcieojbh)
 
-- [AdBlocker Ultimate](https://chrome.google.com/webstore/detail/adblocker-ultimate/ohahllgiabjaoigichmmfljhkcfikeof?hl=zh-CN)
+- [Fair AdBlocker](https://chrome.google.com/webstore/detail/fair-adblocker/lgblnfidahcdcjddiepkckcfdhpknnjh)
+
+- [Poper Blocker](https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche)
 
 - [Google Translate Plus](https://chrome.google.com/webstore/detail/jomhcfmjbfkigcepcfkcpknnppmdopmc)
 
@@ -109,7 +111,9 @@
 
 - [Vimium-FF--j k d u感受下](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/)
 
-- [AdBlocker Ultimate](https://addons.mozilla.org/en-US/firefox/addon/adblocker-ultimate/)
+- [Poper Blocker](https://addons.mozilla.org/en-US/firefox/addon/poper-blocker-pop-up-blocker/)
+
+- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
 
 - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
