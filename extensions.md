@@ -8,7 +8,9 @@
 
 - [Diigo](https://chrome.google.com/webstore/detail/pnhplgjpclknigjpccbcnmicgcieojbh)
 
-- [Fair AdBlocker](https://chrome.google.com/webstore/detail/fair-adblocker/lgblnfidahcdcjddiepkckcfdhpknnjh)
+- [Fair AdBlocker---首选](https://chrome.google.com/webstore/detail/fair-adblocker/lgblnfidahcdcjddiepkckcfdhpknnjh)
+
+- [AdGuard AdBlocker---备选](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)
 
 - [Poper Blocker](https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche)
 
@@ -113,7 +115,9 @@
 
 - [Poper Blocker](https://addons.mozilla.org/en-US/firefox/addon/poper-blocker-pop-up-blocker/)
 
-- [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+- [uBlock Origin---首选](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)
+
+- [AdBlock for Firefox---备选](https://addons.mozilla.org/en-US/firefox/addon/adblock-for-firefox/)
 
 - [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
