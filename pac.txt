@@ -4356,7 +4356,7 @@ function getProxyFromIP(strIp) {
 }
 function FindProxyForURL(url, host) {
 	if ( isPlainHostName(host) === true ) {
-		return direct;
+		return wall_proxy();
 	}
 	if (defaultMatcher.matchesAny(url, host) instanceof BlockingFilter) {
 		return wall_proxy();
