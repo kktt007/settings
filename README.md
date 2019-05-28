@@ -12,3 +12,17 @@ curl -fLo ~/.vimrc https://raw.githubusercontent.com/lan542662/settings/master/v
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim && curl -fLo ~/.vim/colors/sublimemonokai.vim --create-dirs https://raw.githubusercontent.com/erichdongubler/vim-sublime-monokai/master/colors/sublimemonokai.vim && curl -fLo ~/.vim/colors/monokai.vim --create-dirs https://github.com/sickill/vim-monokai/blob/master/colors/monokai.vim
 ```
+## 安卓更新xxr
+```
+https://raw.githubusercontent.com/lan542662/settings/master/nobanAD.acl
+```
+
+## omaga插件更新白名单
+```
+https://raw.githubusercontent.com/lan542662/settings/master/omega
+```
+
+## gfw规则 base64编码，用于路由更新
+```
+https://raw.githubusercontent.com/lan542662/settings/master/gfwlist.txt
+```
