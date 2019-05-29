@@ -1,10 +1,12 @@
 克隆到本地
 
-```wget -P ./Downloads https://raw.githubusercontent.com/the0demiurge/CharlesScripts/master/charles/bin/ssr
+```
+wget -P ./Downloads https://raw.githubusercontent.com/the0demiurge/CharlesScripts/master/charles/bin/ssr
 ```
 或者
 
-```svn co https://github.com/lan542662/settings/trunk/xxr
+```
+svn co https://github.com/lan542662/settings/trunk/xxr
 ```
 
 赋予可执行权限
