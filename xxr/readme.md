@@ -17,7 +17,8 @@ chmod u+x ./ssr
 
 然后将脚本放入可执行脚本的目录
 
-```sudo mv ./ssr /usr/local/sbin/
+```
+sudo mv ./ssr /usr/local/sbin/
 ```
 
 安装 启动
