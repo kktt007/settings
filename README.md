@@ -17,9 +17,13 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 https://raw.githubusercontent.com/lan542662/settings/master/nobanAD.acl
 ```
 
-## omaga插件更新白名单
+## omega插件更新白名单
 ```
 https://raw.githubusercontent.com/lan542662/settings/master/omega
+```
+## omega黑名单
+```
+https://raw.githubusercontent.com/lan542662/settings/master/omega_blacklist
 ```
 
 ## gfw规则 base64编码，用于路由更新
