@@ -1,26 +1,28 @@
 # Chrome extensions扩展 ------> [Firefox extensions扩展](#firefox-extensions扩展--------chrome-extensions扩展)
 
-- [Anything to QRcode](https://chrome.google.com/webstore/detail/anything-to-qrcode/calkaljlpglgogjfcidhlmmlgjnpmnmf)
+- [Extension Manager---插件管理方案](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
+
+- [Anything to QRcode--二维码](https://chrome.google.com/webstore/detail/anything-to-qrcode/calkaljlpglgogjfcidhlmmlgjnpmnmf)
 
 - [下载管理器](https://chrome.google.com/webstore/detail/mciiogijehkdemklbdcbfkefimifhecn)
 
-- [Dark Reader](https://chrome.google.com/webstore/detail/eimadpbcbfnmbkopoojfekhnkhdbieeh)
+- [Dark Reader--暗色护眼背景](https://chrome.google.com/webstore/detail/eimadpbcbfnmbkopoojfekhnkhdbieeh)
 
-- [Diigo](https://chrome.google.com/webstore/detail/pnhplgjpclknigjpccbcnmicgcieojbh)
+- [Diigo税后访问书签](https://chrome.google.com/webstore/detail/pnhplgjpclknigjpccbcnmicgcieojbh)
 
-- [Fair AdBlocker---首选](https://chrome.google.com/webstore/detail/fair-adblocker/lgblnfidahcdcjddiepkckcfdhpknnjh)
+- [Adblocker for Chrome---首选](https://chrome.google.com/webstore/detail/adblocker-for-chrome-noad/alplpnakfeabeiebipdmaenpmbgknjce)
 
 - [AdGuard AdBlocker---备选](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg)
 
-- [Poper Blocker](https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche)
+- [Poper Blocker---去弹窗](https://chrome.google.com/webstore/detail/pop-up-blocker-for-chrome/bkkbcggnhapdmkeljlodobbkopceiche)
 
 - [Google Translate Plus](https://chrome.google.com/webstore/detail/jomhcfmjbfkigcepcfkcpknnppmdopmc)
 
-- [Imagus](https://chrome.google.com/webstore/detail/immpkjjlgappgfkkfieppnmlhakdmaab)
+- [Imagus---图片自动放大](https://chrome.google.com/webstore/detail/immpkjjlgappgfkkfieppnmlhakdmaab)
 
-- [Infinity](https://chrome.google.com/webstore/detail/dbfmnekepjoapopniengjbcpnbljalfg)
+- [Infinity---推荐](https://chrome.google.com/webstore/detail/dbfmnekepjoapopniengjbcpnbljalfg)
 
-- [Instapaper](https://chrome.google.com/webstore/detail/ldjkgaaoikpmhmkelcgkgacicjfbofhh)
+- [Instapaper---稍后阅读](https://chrome.google.com/webstore/detail/ldjkgaaoikpmhmkelcgkgacicjfbofhh)
 
 - 自动填充密码方案
   + 在线密码方案
@@ -29,13 +31,13 @@
   + 本地密码方案
     - [Enpass Password Manager](https://chrome.google.com/webstore/detail/enpass-password-manager/kmcfomidfpdkfieipokbalgegidffkal) 需要安装[Enpass](https://www.enpass.io/downloads/)运行在本地
 
-- [Mate Translate](https://chrome.google.com/webstore/detail/ihmgiclibbndffejedjimfjmfoabpcke)
+- [Mate Translate---翻译](https://chrome.google.com/webstore/detail/ihmgiclibbndffejedjimfjmfoabpcke)
 
-- [Pushbullet](https://chrome.google.com/webstore/detail/chlffgpmiacpedhhbkiomidkjlcfhogd)
+- [Pushbullet--手机和网页推送消息](https://chrome.google.com/webstore/detail/chlffgpmiacpedhhbkiomidkjlcfhogd)
 
 - [Save to Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
 
-- [Search the current site](https://chrome.google.com/webstore/detail/search-the-current-site/jliolpcnkmolaaecncdfeofombdekjcp)
+- [Search the current site---搜索当前网站内容](https://chrome.google.com/webstore/detail/search-the-current-site/jliolpcnkmolaaecncdfeofombdekjcp)
 
 - [神器Selection Search](https://chrome.google.com/webstore/detail/selection-search/gipnlpdeieaidmmeaichnddnmjmcakoe) 自定义配置举例
  ```
@@ -43,23 +45,23 @@
  复制的话直接新建搜索引擎:  COPY
  ```
 
-- [Session Buddy](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko)
+- [Session Buddy---标签管理](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko)
 
-- [SimpleUndoClose](https://chrome.google.com/webstore/detail/simpleundoclose/emhohdghchmjepmigjojkehidlielknj)
+- [SimpleUndoClose---恢复标签](https://chrome.google.com/webstore/detail/simpleundoclose/emhohdghchmjepmigjojkehidlielknj)
 
-- [SpeakIt!](https://chrome.google.com/webstore/detail/speakit/pgeolalilifpodheeocdmbhehgnkkbak)
+- [SpeakIt!---语音输出](https://chrome.google.com/webstore/detail/speakit/pgeolalilifpodheeocdmbhehgnkkbak)
 
-- [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)推荐几个大哥们体验下
+- [Tampermonkey---脚本管理](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)推荐几个大哥们体验下
   + [AC-baidu:google_sogou_RedirectRemove](https://greasyfork.org/en/scripts/14178-ac-baidu-%E9%87%8D%E5%AE%9A%E5%90%91%E4%BC%98%E5%8C%96%E7%99%BE%E5%BA%A6%E6%90%9C%E7%8B%97%E8%B0%B7%E6%AD%8C%E6%90%9C%E7%B4%A2-%E5%8E%BB%E5%B9%BF%E5%91%8A-favicon-%E5%8F%8C%E5%88%97)
-  + [Super_preloaderPlus_one_New](https://greasyfork.org/en/scripts/33522-super-preloaderplus-one-new)
+  + [Super_preloaderPlus_one_New---自动翻页](https://greasyfork.org/en/scripts/33522-super-preloaderplus-one-new)
   + [网盘自动填写密码](https://greasyfork.org/scripts/29762-%E7%BD%91%E7%9B%98%E8%87%AA%E5%8A%A8%E5%A1%AB%E5%86%99%E5%AF%86%E7%A0%81-%E5%A8%81%E5%8A%9B%E5%8A%A0%E5%BC%BA%E7%89%88)
-  + [Remove web limits](https://greasyfork.org/en/scripts/28497-remove-web-limits-modified)
+  + [Remove web limits---去网页限制](https://greasyfork.org/en/scripts/28497-remove-web-limits-modified)
 
-- [The Great Suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
+- [The Great Suspender---自动休眠标签](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
 
 - [Todoist](https://chrome.google.com/webstore/detail/todoist-to-do-list-and-ta/jldhpllghnbhlbpcmnajkpdmadaolakh)
 
-- [Vimium--你需要2分钟熟悉下j k](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+- [Vimium--键盘浏览网页](https://chrome.google.com/webstore/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
 
 - [书签侧边栏-强烈推荐](https://chrome.google.com/webstore/detail/bookmark-sidebar/jdbnofccmhefkmjbkkdkfiicjkgofkdh)
 
@@ -69,7 +71,7 @@
 
 - [SearchPreview](https://chrome.google.com/webstore/detail/searchpreview/hcjdanpjacpeeppdjkppebobilhaglfo)
 
-- [1-Click Webpage Screenshot](https://chrome.google.com/webstore/detail/1-click-webpage-screensho/akgpcdalpfphjmfifkmfbpdmgdmeeaeo)
+- [1-Click Webpage Screenshot---网页截图](https://chrome.google.com/webstore/detail/1-click-webpage-screensho/akgpcdalpfphjmfifkmfbpdmgdmeeaeo)
 
 - [Wikiwand--方便看wiki](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
 
