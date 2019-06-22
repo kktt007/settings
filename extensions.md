@@ -41,8 +41,11 @@
 
 - [神器Selection Search](https://chrome.google.com/webstore/detail/selection-search/gipnlpdeieaidmmeaichnddnmjmcakoe) 自定义配置举例
  ```
- https://www.vocabulary.com/dictionary/%s
- 复制的话直接新建搜索引擎:  COPY
+ 直接搜索选中关键词: https://www.google.com/search?q=%s
+ 
+ 复制的话直接新建搜索引擎: copy
+ 
+ 打开网页: %s
  ```
 
 - [Session Buddy---标签管理](https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko)
