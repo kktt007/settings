@@ -80,6 +80,8 @@
 
 - [Wikiwand--方便看wiki](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
 
+- [Enhanced GitHub --- 单文件下载](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd/related)
+
 - [Octotree--方便看github](https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc)
 
 - [Google Keep](https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki)
@@ -105,6 +107,8 @@
 - [Infinity New Tab (Pro)](https://addons.mozilla.org/en-US/firefox/addon/infinity-new-tab-pro-firefox/)
 
 - [Mate Translate](https://addons.mozilla.org/en-US/firefox/addon/instant-translate/)
+
+- [聚合查单词 ---沙拉单词](https://chrome.google.com/webstore/detail/沙拉查词-聚合词典划词翻译/cdonnmffkdaoajfknoeeecmchibpmkmg)
 
 - [Open bookmarks in a new tab](https://addons.mozilla.org/en-US/firefox/addon/open-bookmarks-in-a-new-tab/)
 
