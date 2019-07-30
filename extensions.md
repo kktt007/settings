@@ -86,6 +86,14 @@
 
 - [Google Keep](https://chrome.google.com/webstore/detail/google-keep-notes-and-lis/hmjkmjkepdijhoojdojkdfohbdgmmhki)
 
+- [NooBox Search By Image --- 二箱搜图](https://chrome.google.com/webstore/detail/noobox-search-by-image/kidibbfcblfbbafhnlanccjjdehoahep)
+
+- [WorldBrain's Memex--- 历史和书签搜索](https://chrome.google.com/webstore/detail/worldbrains-memex/abkfbakhjpmblaafnpgjppbmioombali)
+
+- [View Image -- 查看图片](https://chrome.google.com/webstore/detail/view-image/jpcmhcelnjdmblfmjabdeclccemkghjk/)
+
+- [GITHUBER --- 开发者的新标签页](https://chrome.google.com/webstore/detail/githuber-%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/janmcneaglgklfljjcpihkkomeghljnf)
+
 =====================================================================
 # Firefox extensions扩展 ------> [Chrome extensions扩展](#chrome-extensions扩展--------firefox-extensions扩展)
 
