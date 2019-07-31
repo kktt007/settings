@@ -94,6 +94,8 @@
 
 - [GITHUBER --- 开发者的新标签页](https://chrome.google.com/webstore/detail/githuber-%E5%BC%80%E5%8F%91%E8%80%85%E7%9A%84%E6%96%B0%E6%A0%87%E7%AD%BE%E9%A1%B5/janmcneaglgklfljjcpihkkomeghljnf)
 
+- [Read Aloud ---朗读](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
+
 =====================================================================
 # Firefox extensions扩展 ------> [Chrome extensions扩展](#chrome-extensions扩展--------firefox-extensions扩展)
 
