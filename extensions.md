@@ -96,8 +96,6 @@
 
 - [Read Aloud ---朗读](https://chrome.google.com/webstore/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp)
 
-- [Google Results Previewer ---网页预览](https://chrome.google.com/webstore/detail/google-results-previewer/mkmjdljkedjpedbceoaaghdmcnipdcjf)
-
 - [Tab Manager Plus for Chrome ---标签管理](https://chrome.google.com/webstore/detail/tab-manager-plus-for-chro/cnkdjjdmfiffagllbiiilooaoofcoeff)
 
 - [Clearly---阅读扩展](https://chrome.google.com/webstore/detail/clearly/odfonlkabodgbolnmmkdijkaeggofoop)
