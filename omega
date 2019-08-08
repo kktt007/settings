@@ -1,7 +1,7 @@
 [AutoProxy]
 
 ||qq.com
-||.baidu.com
+||baidu.com
 .12306.cn/
 .126.com/
 .126.net/
@@ -86,7 +86,7 @@
 .cache.netease.com/
 .caiyunapp.com/
 .cctv.com/
-.chinaso.com/
+.china/
 .chinaz.com/
 .cloud.tencent.com/
 .clouddn.com/
@@ -228,7 +228,7 @@
 .sinaimg.cn/
 .skycn.com/
 .smzdm.com/
-.so.com/
+.so.com
 .sogou.com/
 .sogoucdn.com/
 .sohu.com/
