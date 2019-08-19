@@ -2,6 +2,8 @@
 
 - [Extension Manager---插件管理方案](https://chrome.google.com/webstore/detail/extension-manager/gjldcdngmdknpinoemndlidpcabkggco)
 
+- [extensity --- 扩展管理首选](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg?hl=en)
+
 - [Anything to QRcode--二维码](https://chrome.google.com/webstore/detail/anything-to-qrcode/calkaljlpglgogjfcidhlmmlgjnpmnmf)
 
 - [下载管理器](https://chrome.google.com/webstore/detail/mciiogijehkdemklbdcbfkefimifhecn)
