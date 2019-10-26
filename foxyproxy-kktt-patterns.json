@@ -1,0 +1,3002 @@
+{
+  "whitePatterns": [
+    {
+      "title": "all URLs",
+      "pattern": "*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    }
+  ],
+  "blackPatterns": [
+    {
+      "title": "local hostnames (usually no dots in the name). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+      "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:localhost|127\\.\\d+\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+      "type": 2,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "local subnets (IANA reserved address space). Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+      "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?(?:192\\.168\\.\\d+\\.\\d+|10\\.\\d+\\.\\d+\\.\\d+|172\\.(?:1[6789]|2[0-9]|3[01])\\.\\d+\\.\\d+)(?::\\d+)?(?:/.*)?$",
+      "type": 2,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "localhost - matches the local host optionally prefixed by a user:password authentication string and optionally suffixed by a port number. The entire local subnet (127.0.0.0/8) matches. Pattern exists because 'Do not use this proxy for localhost and intranet/private IP addresses' is checked.",
+      "pattern": "^(?:[^:@/]+(?::[^@/]+)?@)?[\\w-]+(?::\\d+)?(?:/.*)?$",
+      "type": 2,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cn*",
+      "pattern": "*.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kktt007.top*",
+      "pattern": "*.kktt007.top*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.0daydown.com*",
+      "pattern": "*.0daydown.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.111cn.net*",
+      "pattern": "*.111cn.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.12306.cn*",
+      "pattern": "*.12306.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.126.com*",
+      "pattern": "*.126.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.126.net*",
+      "pattern": "*.126.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.127.net*",
+      "pattern": "*.127.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.139.com*",
+      "pattern": "*.139.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.160.com*",
+      "pattern": "*.160.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.163.com*",
+      "pattern": "*.163.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.163.net*",
+      "pattern": "*.163.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.163disk.com*",
+      "pattern": "*.163disk.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.1688.com*",
+      "pattern": "*.1688.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.17173.com*",
+      "pattern": "*.17173.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.188.com*",
+      "pattern": "*.188.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.189.cn*",
+      "pattern": "*.189.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.189store.com*",
+      "pattern": "*.189store.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.1905.com*",
+      "pattern": "*.1905.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.199it.com*",
+      "pattern": "*.199it.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.1ting.com*",
+      "pattern": "*.1ting.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.33lc.com*",
+      "pattern": "*.33lc.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.360buy.com*",
+      "pattern": "*.360buy.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.360buyimg.com*",
+      "pattern": "*.360buyimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.360doc.com*",
+      "pattern": "*.360doc.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.360kan.com*",
+      "pattern": "*.360kan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.360safe.com*",
+      "pattern": "*.360safe.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.36kr.com*",
+      "pattern": "*.36kr.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.39.net*",
+      "pattern": "*.39.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.3dmgame.com*",
+      "pattern": "*.3dmgame.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.51cto.com*",
+      "pattern": "*.51cto.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.52pojie.cn*",
+      "pattern": "*.52pojie.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.58.com*",
+      "pattern": "*.58.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.58pic.com*",
+      "pattern": "*.58pic.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.699pic.com*",
+      "pattern": "*.699pic.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.91wan.com*",
+      "pattern": "*.91wan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.99bill.com*",
+      "pattern": "*.99bill.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.abchina.com*",
+      "pattern": "*.abchina.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.acfun.com*",
+      "pattern": "*.acfun.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.acfun.tv*",
+      "pattern": "*.acfun.tv*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.acg.tv*",
+      "pattern": "*.acg.tv*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.acgvideo.com*",
+      "pattern": "*.acgvideo.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.aicdn.com*",
+      "pattern": "*.aicdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.aipai.com*",
+      "pattern": "*.aipai.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.air-matters.com*",
+      "pattern": "*.air-matters.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.aixifan.com*",
+      "pattern": "*.aixifan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.aizhan.com*",
+      "pattern": "*.aizhan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.aldwx.com*",
+      "pattern": "*.aldwx.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ali213.net*",
+      "pattern": "*.ali213.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.aliapp.com*",
+      "pattern": "*.aliapp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.alibaba.com*",
+      "pattern": "*.alibaba.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.alibabacloud.com*",
+      "pattern": "*.alibabacloud.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.alicdn.com*",
+      "pattern": "*.alicdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.alikunlun.com*",
+      "pattern": "*.alikunlun.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.alikunlun.net*",
+      "pattern": "*.alikunlun.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.alimama.com*",
+      "pattern": "*.alimama.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.alipay.com*",
+      "pattern": "*.alipay.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.alipayobjects.com*",
+      "pattern": "*.alipayobjects.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.aliyun.com*",
+      "pattern": "*.aliyun.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.aliyuncs.com*",
+      "pattern": "*.aliyuncs.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.amap.com*",
+      "pattern": "*.amap.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ancda.com*",
+      "pattern": "*.ancda.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.androidonline.net*",
+      "pattern": "*.androidonline.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.anruan.com*",
+      "pattern": "*.anruan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ant.design*",
+      "pattern": "*.ant.design*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.antfin.com*",
+      "pattern": "*.antfin.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.anzhi.com*",
+      "pattern": "*.anzhi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.anzow.com*",
+      "pattern": "*.anzow.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.apabi.com*",
+      "pattern": "*.apabi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.appcgn.com*",
+      "pattern": "*.appcgn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.appchina.com*",
+      "pattern": "*.appchina.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.appinn.com*",
+      "pattern": "*.appinn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.apple.com*",
+      "pattern": "*.apple.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.atlassian.com*",
+      "pattern": "*.atlassian.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.autonavi.com*",
+      "pattern": "*.autonavi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.babybus.com*",
+      "pattern": "*.babybus.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baidu.com*",
+      "pattern": "*.baidu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baidulian.net*",
+      "pattern": "*.baidulian.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baidupan.com*",
+      "pattern": "*.baidupan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baidustatic.com*",
+      "pattern": "*.baidustatic.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baiduwp.com*",
+      "pattern": "*.baiduwp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baiduyundns.com*",
+      "pattern": "*.baiduyundns.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baiduyundns.net*",
+      "pattern": "*.baiduyundns.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baiduyy.com*",
+      "pattern": "*.baiduyy.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baike.com*",
+      "pattern": "*.baike.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bandwagonhost.com*",
+      "pattern": "*.bandwagonhost.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.baofeng.com*",
+      "pattern": "*.baofeng.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bbs.fobshanghai.com*",
+      "pattern": "*.bbs.fobshanghai.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bbs.gfan.com*",
+      "pattern": "*.bbs.gfan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bbs.zhiyoo.com*",
+      "pattern": "*.bbs.zhiyoo.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bbtree.com*",
+      "pattern": "*.bbtree.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bcedns.com*",
+      "pattern": "*.bcedns.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bcedns.net*",
+      "pattern": "*.bcedns.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bdchina.com*",
+      "pattern": "*.bdchina.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bdglj.com*",
+      "pattern": "*.bdglj.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bdgycx.com*",
+      "pattern": "*.bdgycx.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bdimg.com*",
+      "pattern": "*.bdimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bdstatic.com*",
+      "pattern": "*.bdstatic.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bdydns.com*",
+      "pattern": "*.bdydns.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bdydns.net*",
+      "pattern": "*.bdydns.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bible.com*",
+      "pattern": "*.bible.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bilibili.com*",
+      "pattern": "*.bilibili.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bilibili.tv*",
+      "pattern": "*.bilibili.tv*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.biligame.com*",
+      "pattern": "*.biligame.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bitbucket.org*",
+      "pattern": "*.bitbucket.org*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.blog.163.com*",
+      "pattern": "*.blog.163.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.blog.csdn.net*",
+      "pattern": "*.blog.csdn.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.blogbus.com*",
+      "pattern": "*.blogbus.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.blogchina.com*",
+      "pattern": "*.blogchina.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.blogcn.com*",
+      "pattern": "*.blogcn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bluedoc.io*",
+      "pattern": "*.bluedoc.io*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.bookschina.com*",
+      "pattern": "*.bookschina.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.btv.org*",
+      "pattern": "*.btv.org*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cache.netease.com*",
+      "pattern": "*.cache.netease.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.caiyunapp.com*",
+      "pattern": "*.caiyunapp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cctv.com*",
+      "pattern": "*.cctv.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cdntip.com*",
+      "pattern": "*.cdntip.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.chainnews.com*",
+      "pattern": "*.chainnews.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.chinaso.com*",
+      "pattern": "*.chinaso.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.chinaz.com*",
+      "pattern": "*.chinaz.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.chongbuluo.com*",
+      "pattern": "*.chongbuluo.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.chongdiantou.com*",
+      "pattern": "*.chongdiantou.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cloud.tencent.com*",
+      "pattern": "*.cloud.tencent.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.clouddn.com*",
+      "pattern": "*.clouddn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cnbeta.com*",
+      "pattern": "*.cnbeta.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cnbetacdn.com*",
+      "pattern": "*.cnbetacdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cnblogs.com*",
+      "pattern": "*.cnblogs.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cntv.net*",
+      "pattern": "*.cntv.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cnzz.com*",
+      "pattern": "*.cnzz.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.coding.net*",
+      "pattern": "*.coding.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.coloros.com*",
+      "pattern": "*.coloros.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.coolshell.cn*",
+      "pattern": "*.coolshell.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cowtransfer.com*",
+      "pattern": "*.cowtransfer.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.csdn.net*",
+      "pattern": "*.csdn.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ctdisk.com*",
+      "pattern": "*.ctdisk.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ctrip.com*",
+      "pattern": "*.ctrip.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.cuplayer.com*",
+      "pattern": "*.cuplayer.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.damengxiang.me*",
+      "pattern": "*.damengxiang.me*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ddrk.me*",
+      "pattern": "*.ddrk.me*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.dell.com*",
+      "pattern": "*.dell.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.dgtle.com*",
+      "pattern": "*.dgtle.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.dianping.com*",
+      "pattern": "*.dianping.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.dict.cn*",
+      "pattern": "*.dict.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.digitalocean.com*",
+      "pattern": "*.digitalocean.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.dingtalk.com*",
+      "pattern": "*.dingtalk.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.discuz.com*",
+      "pattern": "*.discuz.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.discuz.net*",
+      "pattern": "*.discuz.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.dji.com*",
+      "pattern": "*.dji.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.douban.com*",
+      "pattern": "*.douban.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.douban.fm*",
+      "pattern": "*.douban.fm*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.doubanio.com*",
+      "pattern": "*.doubanio.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.douyin.com*",
+      "pattern": "*.douyin.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.douyu.com*",
+      "pattern": "*.douyu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.doyoudo.com*",
+      "pattern": "*.doyoudo.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.draw.io*",
+      "pattern": "*.draw.io*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.duokan.com*",
+      "pattern": "*.duokan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.duote.com*",
+      "pattern": "*.duote.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.duowan.com*",
+      "pattern": "*.duowan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.dy2018.com*",
+      "pattern": "*.dy2018.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.easou.com*",
+      "pattern": "*.easou.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.eastday.com*",
+      "pattern": "*.eastday.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ele.me*",
+      "pattern": "*.ele.me*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.etao.com*",
+      "pattern": "*.etao.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ewei.com*",
+      "pattern": "*.ewei.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.feng.com*",
+      "pattern": "*.feng.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.fir.im*",
+      "pattern": "*.fir.im*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.focuschina.com*",
+      "pattern": "*.focuschina.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.foundertype.com*",
+      "pattern": "*.foundertype.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.frdic.com*",
+      "pattern": "*.frdic.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.g-cores.com*",
+      "pattern": "*.g-cores.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.gamersky.com*",
+      "pattern": "*.gamersky.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.gitee.com*",
+      "pattern": "*.gitee.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.godic.net*",
+      "pattern": "*.godic.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.google.cn*",
+      "pattern": "*.google.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.gratisography.com*",
+      "pattern": "*.gratisography.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.growingio.com*",
+      "pattern": "*.growingio.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.gtimg.cn*",
+      "pattern": "*.gtimg.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.gtimg.com*",
+      "pattern": "*.gtimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.guokr.com*",
+      "pattern": "*.guokr.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.hao123.com*",
+      "pattern": "*.hao123.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.hao123img.com*",
+      "pattern": "*.hao123img.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.hjenglish.com*",
+      "pattern": "*.hjenglish.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.hongxiu.com*",
+      "pattern": "*.hongxiu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.huaban.com*",
+      "pattern": "*.huaban.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.huaweicloud.com*",
+      "pattern": "*.huaweicloud.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.hujiang.com*",
+      "pattern": "*.hujiang.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.hxcdn.net*",
+      "pattern": "*.hxcdn.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.iciba.com*",
+      "pattern": "*.iciba.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ifeng.com*",
+      "pattern": "*.ifeng.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ifengimg.com*",
+      "pattern": "*.ifengimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.iguoguo.net*",
+      "pattern": "*.iguoguo.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.iina.io*",
+      "pattern": "*.iina.io*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.infoq.com*",
+      "pattern": "*.infoq.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.intel.com*",
+      "pattern": "*.intel.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.intercomcdn.com*",
+      "pattern": "*.intercomcdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ip.cn*",
+      "pattern": "*.ip.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ip.sb*",
+      "pattern": "*.ip.sb*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ip111.cn*",
+      "pattern": "*.ip111.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ip138.com*",
+      "pattern": "*.ip138.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ipip.net*",
+      "pattern": "*.ipip.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.iqiyi.com*",
+      "pattern": "*.iqiyi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.it168.com*",
+      "pattern": "*.it168.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.itcodemonkey.com*",
+      "pattern": "*.itcodemonkey.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ithome.com*",
+      "pattern": "*.ithome.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.itmop.com*",
+      "pattern": "*.itmop.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.jd.com*",
+      "pattern": "*.jd.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.jianguoyun.com*",
+      "pattern": "*.jianguoyun.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.jianshu.com*",
+      "pattern": "*.jianshu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.jiantuku.com*",
+      "pattern": "*.jiantuku.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.job51.net*",
+      "pattern": "*.job51.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.juejin.im*",
+      "pattern": "*.juejin.im*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.juzimi.com*",
+      "pattern": "*.juzimi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kf5.com*",
+      "pattern": "*.kf5.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kktt.ys168.com*",
+      "pattern": "*.kktt.ys168.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.knewone.com*",
+      "pattern": "*.knewone.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kuaidi100.com*",
+      "pattern": "*.kuaidi100.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kugou.com*",
+      "pattern": "*.kugou.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunaq.com*",
+      "pattern": "*.kunlunaq.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunar.com*",
+      "pattern": "*.kunlunar.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunca.com*",
+      "pattern": "*.kunlunca.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunluncan.com*",
+      "pattern": "*.kunluncan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunea.com*",
+      "pattern": "*.kunlunea.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlungem.com*",
+      "pattern": "*.kunlungem.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlungr.com*",
+      "pattern": "*.kunlungr.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunhuf.com*",
+      "pattern": "*.kunlunhuf.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunle.com*",
+      "pattern": "*.kunlunle.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunli.com*",
+      "pattern": "*.kunlunli.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunno.com*",
+      "pattern": "*.kunlunno.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunpi.com*",
+      "pattern": "*.kunlunpi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunra.com*",
+      "pattern": "*.kunlunra.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunsa.com*",
+      "pattern": "*.kunlunsa.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunsc.com*",
+      "pattern": "*.kunlunsc.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunsl.com*",
+      "pattern": "*.kunlunsl.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunso.com*",
+      "pattern": "*.kunlunso.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunta.com*",
+      "pattern": "*.kunlunta.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunvi.com*",
+      "pattern": "*.kunlunvi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kunlunwe.com*",
+      "pattern": "*.kunlunwe.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.kuwo.cn*",
+      "pattern": "*.kuwo.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.lanhuapp.com*",
+      "pattern": "*.lanhuapp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.lanzou.com*",
+      "pattern": "*.lanzou.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.lanzous.com*",
+      "pattern": "*.lanzous.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.le.com*",
+      "pattern": "*.le.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.lecloud.com*",
+      "pattern": "*.lecloud.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.lemicp.com*",
+      "pattern": "*.lemicp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.liantu.com*",
+      "pattern": "*.liantu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.licdn.com*",
+      "pattern": "*.licdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.linode.com*",
+      "pattern": "*.linode.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.linux.cn*",
+      "pattern": "*.linux.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.linuxde.net*",
+      "pattern": "*.linuxde.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.linuxidc.com*",
+      "pattern": "*.linuxidc.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.lofter.com*",
+      "pattern": "*.lofter.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.luoo.net*",
+      "pattern": "*.luoo.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.m1905.com*",
+      "pattern": "*.m1905.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.macrr.com*",
+      "pattern": "*.macrr.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.maoyan.com*",
+      "pattern": "*.maoyan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.mbalib.com*",
+      "pattern": "*.mbalib.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.meituan.com*",
+      "pattern": "*.meituan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.meituan.net*",
+      "pattern": "*.meituan.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.meizu.com*",
+      "pattern": "*.meizu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.mgtv.com*",
+      "pattern": "*.mgtv.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.mi.com*",
+      "pattern": "*.mi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.miaopai.com*",
+      "pattern": "*.miaopai.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.microbit.org*",
+      "pattern": "*.microbit.org*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.minapp.com*",
+      "pattern": "*.minapp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.miui.com*",
+      "pattern": "*.miui.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.miwifi.com*",
+      "pattern": "*.miwifi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.mob.com*",
+      "pattern": "*.mob.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.myapp.com*",
+      "pattern": "*.myapp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.mydrivers.com*",
+      "pattern": "*.mydrivers.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.myqcloud.com*",
+      "pattern": "*.myqcloud.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.netease.com*",
+      "pattern": "*.netease.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.newasp.net*",
+      "pattern": "*.newasp.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.newhua.com*",
+      "pattern": "*.newhua.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.nobook.com*",
+      "pattern": "*.nobook.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.nocmd.com*",
+      "pattern": "*.nocmd.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.oneplus.com*",
+      "pattern": "*.oneplus.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.oppo.com*",
+      "pattern": "*.oppo.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.orsoon.com*",
+      "pattern": "*.orsoon.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.oschina.net*",
+      "pattern": "*.oschina.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.oursketch.com*",
+      "pattern": "*.oursketch.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pan.baidu.com*",
+      "pattern": "*.pan.baidu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.panduoduo.net*",
+      "pattern": "*.panduoduo.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pcbeta.com*",
+      "pattern": "*.pcbeta.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pexels.com*",
+      "pattern": "*.pexels.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pgyer.com*",
+      "pattern": "*.pgyer.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pingwest.com*",
+      "pattern": "*.pingwest.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pipipan.com*",
+      "pattern": "*.pipipan.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pluwen.com*",
+      "pattern": "*.pluwen.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pplive.com*",
+      "pattern": "*.pplive.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pps.tv*",
+      "pattern": "*.pps.tv*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ppsimg.com*",
+      "pattern": "*.ppsimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ppstream.com*",
+      "pattern": "*.ppstream.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pptv.com*",
+      "pattern": "*.pptv.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.processon.com*",
+      "pattern": "*.processon.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.pstatp.com*",
+      "pattern": "*.pstatp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qbox.me*",
+      "pattern": "*.qbox.me*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qcloud.com*",
+      "pattern": "*.qcloud.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qdaily.com*",
+      "pattern": "*.qdaily.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qdmm.com*",
+      "pattern": "*.qdmm.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qhimg.com*",
+      "pattern": "*.qhimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qhimgs4.com*",
+      "pattern": "*.qhimgs4.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qhres.com*",
+      "pattern": "*.qhres.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qichacha.com*",
+      "pattern": "*.qichacha.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qidian.com*",
+      "pattern": "*.qidian.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qihoo.com*",
+      "pattern": "*.qihoo.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qihucdn.com*",
+      "pattern": "*.qihucdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qiniu.com*",
+      "pattern": "*.qiniu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qiniucdn.com*",
+      "pattern": "*.qiniucdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qiniudn.com*",
+      "pattern": "*.qiniudn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qiniudns.com*",
+      "pattern": "*.qiniudns.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qiniuts.com*",
+      "pattern": "*.qiniuts.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qiuziti.com*",
+      "pattern": "*.qiuziti.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qiyipic.com*",
+      "pattern": "*.qiyipic.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.qq.com*",
+      "pattern": "*.qq.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.repaik.com*",
+      "pattern": "*.repaik.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.rockyenglish.com*",
+      "pattern": "*.rockyenglish.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ruan8.com*",
+      "pattern": "*.ruan8.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ruanmei.com*",
+      "pattern": "*.ruanmei.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ruanyifeng.com*",
+      "pattern": "*.ruanyifeng.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ruguoapp.com*",
+      "pattern": "*.ruguoapp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.runoob.com*",
+      "pattern": "*.runoob.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sc115.com*",
+      "pattern": "*.sc115.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.segmentfault.com*",
+      "pattern": "*.segmentfault.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.shangxueba.com*",
+      "pattern": "*.shangxueba.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.shimo.im*",
+      "pattern": "*.shimo.im*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sina.com*",
+      "pattern": "*.sina.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sina.com.cn*",
+      "pattern": "*.sina.com.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sinaapp.com*",
+      "pattern": "*.sinaapp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sinaimg.cn*",
+      "pattern": "*.sinaimg.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.skycn.com*",
+      "pattern": "*.skycn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.slack.com*",
+      "pattern": "*.slack.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.smzdm.com*",
+      "pattern": "*.smzdm.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.so.com*",
+      "pattern": "*.so.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sogou.com*",
+      "pattern": "*.sogou.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sogoucdn.com*",
+      "pattern": "*.sogoucdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sohu.com*",
+      "pattern": "*.sohu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sohu.net*",
+      "pattern": "*.sohu.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.soku.com*",
+      "pattern": "*.soku.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.soso.com*",
+      "pattern": "*.soso.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sosoo.net*",
+      "pattern": "*.sosoo.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.speedtest.net*",
+      "pattern": "*.speedtest.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.sspai.com*",
+      "pattern": "*.sspai.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.suning.com*",
+      "pattern": "*.suning.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.t.cn*",
+      "pattern": "*.t.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.t90dyy.tv*",
+      "pattern": "*.t90dyy.tv*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.talkingdata.com*",
+      "pattern": "*.talkingdata.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.taobao.com*",
+      "pattern": "*.taobao.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.taobaocdn.com*",
+      "pattern": "*.taobaocdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tcdn.qq.com*",
+      "pattern": "*.tcdn.qq.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tencent.com*",
+      "pattern": "*.tencent.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tenpay.com*",
+      "pattern": "*.tenpay.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.thetype.com*",
+      "pattern": "*.thetype.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tianyancha.com*",
+      "pattern": "*.tianyancha.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.time.is*",
+      "pattern": "*.time.is*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tingclass.net*",
+      "pattern": "*.tingclass.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tmall.com*",
+      "pattern": "*.tmall.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tool.lu*",
+      "pattern": "*.tool.lu*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.toutiao.com*",
+      "pattern": "*.toutiao.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.toutiao.io*",
+      "pattern": "*.toutiao.io*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.trontv.com*",
+      "pattern": "*.trontv.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tuchong.com*",
+      "pattern": "*.tuchong.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tudou.com*",
+      "pattern": "*.tudou.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tuicool.com*",
+      "pattern": "*.tuicool.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tv.sohu.com*",
+      "pattern": "*.tv.sohu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tvb.me*",
+      "pattern": "*.tvb.me*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.tvsou.com*",
+      "pattern": "*.tvsou.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.typeisbeautiful.com*",
+      "pattern": "*.typeisbeautiful.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ucweb.com*",
+      "pattern": "*.ucweb.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.uedna.com*",
+      "pattern": "*.uedna.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.uisdc.com*",
+      "pattern": "*.uisdc.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.umeng.com*",
+      "pattern": "*.umeng.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.umetrip.com*",
+      "pattern": "*.umetrip.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.undraw.co*",
+      "pattern": "*.undraw.co*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.unsplash.com*",
+      "pattern": "*.unsplash.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.upaiyun.com*",
+      "pattern": "*.upaiyun.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ups.com*",
+      "pattern": "*.ups.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.upyun.com*",
+      "pattern": "*.upyun.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.v2ex.com*",
+      "pattern": "*.v2ex.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.veryzhun.com*",
+      "pattern": "*.veryzhun.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.visualhunt.com*",
+      "pattern": "*.visualhunt.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.vivo.com.cn*",
+      "pattern": "*.vivo.com.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.vmall.com*",
+      "pattern": "*.vmall.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.vultr.com*",
+      "pattern": "*.vultr.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.w3cschool.cn*",
+      "pattern": "*.w3cschool.cn*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.wallhaven.cc*",
+      "pattern": "*.wallhaven.cc*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.wandoujia.com*",
+      "pattern": "*.wandoujia.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.wangchujiang.com*",
+      "pattern": "*.wangchujiang.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.weather.com*",
+      "pattern": "*.weather.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.wechat.com*",
+      "pattern": "*.wechat.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.weibo.com*",
+      "pattern": "*.weibo.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.weiyun.com*",
+      "pattern": "*.weiyun.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.woshipm.com*",
+      "pattern": "*.woshipm.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xiami.com*",
+      "pattern": "*.xiami.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xiami.net*",
+      "pattern": "*.xiami.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xiaohongshu.com*",
+      "pattern": "*.xiaohongshu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xiaomi.com*",
+      "pattern": "*.xiaomi.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xiaomicp.com*",
+      "pattern": "*.xiaomicp.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ximalaya.com*",
+      "pattern": "*.ximalaya.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xmcdn.com*",
+      "pattern": "*.xmcdn.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xp510.com*",
+      "pattern": "*.xp510.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xueqiu.com*",
+      "pattern": "*.xueqiu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xunlei.com*",
+      "pattern": "*.xunlei.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.xywy.com*",
+      "pattern": "*.xywy.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.yhd.com*",
+      "pattern": "*.yhd.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.yihaodianimg.com*",
+      "pattern": "*.yihaodianimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.yinxiang.com*",
+      "pattern": "*.yinxiang.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.yinyuetai.com*",
+      "pattern": "*.yinyuetai.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ykimg.com*",
+      "pattern": "*.ykimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.youdao.com*",
+      "pattern": "*.youdao.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.youku.com*",
+      "pattern": "*.youku.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ys168.com*",
+      "pattern": "*.ys168.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.yue365.com*",
+      "pattern": "*.yue365.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.yunjiasu-cdn.net*",
+      "pattern": "*.yunjiasu-cdn.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.yuque.com*",
+      "pattern": "*.yuque.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.ywnz.com*",
+      "pattern": "*.ywnz.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zaobao.com*",
+      "pattern": "*.zaobao.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zdic.net*",
+      "pattern": "*.zdic.net*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zealer.com*",
+      "pattern": "*.zealer.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zhaopin.com*",
+      "pattern": "*.zhaopin.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zhihu.com*",
+      "pattern": "*.zhihu.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zhimg.com*",
+      "pattern": "*.zhimg.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zhongguose.com*",
+      "pattern": "*.zhongguose.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zimuzu.tv*",
+      "pattern": "*.zimuzu.tv*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    },
+    {
+      "title": "*.zol.com*",
+      "pattern": "*.zol.com*",
+      "type": 1,
+      "protocols": 1,
+      "active": true
+    }
+  ]
+}
