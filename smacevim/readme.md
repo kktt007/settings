@@ -1,3 +1,3 @@
 
 # windows下执行软链接
-mklink /J c:\\\local\nvim c:\\administrators\.spacevim
+mklink /D C:\Users\Administrator\AppData\Local\nnnvim C:\Users\Administrator\.SpaceVim
